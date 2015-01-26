@@ -1,19 +1,9 @@
-sydjs.com
+http://techmeetup.co/
 =========
 
-## The SydJS Website.
+## TECH Meetup Kazakhstan.
 
-Initially built in two and a half days by the team at [Thinkmill](http://www.thinkmill.com.au) as a demo of what [KeystoneJS](http://keystonejs.com) can do, it's now a showcase for the Sydney Javascript community.
-
-## Get Involved!
-
-Please use the GitHub Issues to log any ideas you have to improve the site, or problems you may come across.
-
-Or if you're feeling more adventurous, go pick an issue and submit a pull request.
-
-Feel free to ask questions about how it works, if you're getting into the code.
-
-If you are part of another meetup group and want to use our site as a basis for your own, that's great, we'd love to hear about it.
+Based on work of [Thinkmill's](http://www.thinkmill.com.au) demo of [KeystoneJS](http://keystonejs.com).
 
 ### Coding Guidelines
 
@@ -24,21 +14,19 @@ We have generally followed the guidelines set out in [AirBnB's Javascript Style 
 
 ## Getting Started
 
-To run the SydJS site locally, there are a few things to set up.
+To run the site locally, there are a few things to set up.
 
-Because we have some private keys for our MongoDB, Cloudinary and Mandrill accounts, you'll need to set up your own equivalents before the site will run properly.
-
-_If you're looking to work on the SydJS site and want access to our accounts, please get in touch_
+Because we have some private keys for our MongoDB, Cloudinary accounts, you'll need to set up your own equivalents before the site will run properly.
 
 ### Install Node.js and MongoDB
 
 You'll need node 0.10.x and npm 1.3.x installed to run SydJS. The easiest way is to download the installers from [nodejs.org](http://nodejs.org).
 
-You'll also need MongoDB 2.4.x - if you're on a Mac, the easiest way is to install [homebrew](http://brew.sh) and then run `brew install mongo`.
+You'll also need MongoDB 2.4.x or higher.
 
 If you're on a Mac you'll also need Xcode and the Command Line Tools installed or the build process won't work.
 
-### Setting up your copy of SydJS
+### Setting up your copy 
 
 Get a local copy of the site by cloning this repository, or fork it to work on your own copy.
 
@@ -50,7 +38,7 @@ The only line you **need** to add to your `.env` file is a valid `CLOUDINARY_URL
 
 	CLOUDINARY_URL=cloudinary://12345:abcde@cloudname
 
-### Running SydJS
+### Running your isntance
 
 Once you've set up your configuration, run `node keystone` to start the server.
 
@@ -60,7 +48,7 @@ If you want to run against a different server or database, add a line to your `.
 
 When it's all up and running, you should see the message `SydJS is ready on port 3000` and you'll be able to browse the site on [localhost:3000](http://localhost:3000).
 
-### Here be ~~dragons~~ errors
+### Here be ~~fireflies~~ errors
 
 #### or, how you don't have any content yet
 
